@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+  <meta charset="utf-8">
+  <meta name="viewport" content ="width=device-width,initial-scale=1">
+<style type="text/css">
+  
+body{
+  font-family: sans-serif;
+  padding-left: 33%;
+  padding-right: 33%;
+  background-image: url(https://thumbs.dreamstime.com/b/seamless-pattern-shaded-white-dollar-sign-green-background-vector-illustration-seamless-pattern-shaded-white-dollar-168047039.jpg);
+   background-color: #957fefff;
+}
+
+label{
+  font-size: 20px;
+  display: block;  
+  padding-top: 5px;
+}
+input{
+  padding-top: 5px;
+}
+form{
+  background-color: #e0acd5ff;
+ padding-right: 33%;
+  
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<body>
+<h1 id="title">Survey Form</h1>
+<p id="description">Which Is Your Favorite Luxury Brand</p>
+<form id="survey-form">
+  <label id="name-label">Name</label>
+  <input type="text" name="name"  id="name" required="name" placeholder="First Name">
+  <label id="email-label">Email</label>
+  <input type="email" name="email" id="email" required="email" placeholder="Enter Your Email">
+  <label id="number-label">Number</label>
+  <input type="number" name="number" id="number" required="number" placeholder="#" min="0" max="10"><br>
+  <br>
+  <select id="dropdown" name="luxury brands">
+  <option value="louis-vuitton">Louis Vutitton</option>
+  <option  value="gucci">Gucci</option>
+  <option value="saint-laurent">Saint Laurent</option>
+  <option value="fendi"> Fendi</option>
+  <option value="amiri">Amiri</option>
+  <option value="other">Other</option>
+  </select><br>
+
+  <input type="radio" name="gender" value="male">Male<br>
+  <input type="radio" name="gender" value="female">Female<br>
+  <input type="radio" name="gender" value="other">Other<br><br>
+
+  <input type="checkbox" name="own" value="own">Own<br>
+  <input type="checkbox" name="want-to-buy" value="want-to-buy">Want To Buy<br>
+  <input type="checkbox" name="never-want-to-buy" value="never-want-to-buy">Never Want To Buy<br>
+  <textarea placeholder="Additional Comments"></textarea>
+  <input type="submit" id="submit">
+</body>
+</form>
